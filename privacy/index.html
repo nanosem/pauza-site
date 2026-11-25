@@ -28,7 +28,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 56px 0; }
 
 <section id="en" lang="en">
 <h1>Pauza Privacy Policy</h1>
-<p class="updated">Last updated: 9 November 2026</p>
+<p class="updated">Last updated: 25 November 2026</p>
 
 <p>Pauza is a parking assistant for iPhone. It detects when you park in a paid parking zone, shows the zone and paid hours, and reminds you to pay and to end parking. Pauza does not take payments and has no user accounts.</p>
 
@@ -43,20 +43,22 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 56px 0; }
 </ul>
 
 <h2>Data sent to Pauza</h2>
-<p>Pauza does not use any user ID, device ID or advertising ID. Each parking session is sent under a new random number that only links the start and the end of that one session. The app deletes this number once the session has been sent, so sessions cannot be linked to each other or to you.</p>
+<p>Pauza does not use any user ID, device ID or advertising ID. Each parking session is sent under a new random number that only links the start and the end of that one session. The app deletes this number once the session has been sent, so sessions cannot be linked to each other or to you. The daily status uses a separate random number that the app creates anew every day and does not derive from any device ID. It is never sent with parking sessions, so statuses from different days cannot be linked to each other, to sessions or to you.</p>
 <div class="table-wrap">
 <table>
 <tr><th>Data</th><th>Details</th></tr>
-<tr><td>Parking session</td><td>City, zone, start and end time, estimated cost, how the session ended, detection confidence, battery level and charging state, iPhone model</td></tr>
+<tr><td>Parking session</td><td>City, zone, start and end time, estimated cost, how the session ended, detection confidence, battery level and charging state, iPhone model, app and iOS version, how the parking was recognised (walking, steps or standing still), time from the stop to the reminder, accuracy and age of the location fix</td></tr>
 <tr><td>Parking area</td><td>Rounded to about 1 km. If you turn on "Help improve Pauza", rounded to about 100 m instead. The exact spot and the street address are never sent.</td></tr>
 <tr><td>Daily performance report</td><td>Apple MetricKit report: app version, iPhone model, CPU and background time, time spent at each GPS accuracy level, mobile data use, memory use and app exits. It carries no identifier.</td></tr>
+<tr><td>Daily status</td><td>App and iOS version, iPhone model, city, and whether location ("Always" and precise), Motion &amp; Fitness and notifications are allowed. Sent at most once a day, and again that day only if something changes, with the daily random number described above.</td></tr>
+<tr><td>Your answers</td><td>If you answer "Was this detected correctly?" in your history: the answer, city, whether the zone was known, detection confidence, location accuracy, duration, starting hour, app and iOS version, iPhone model. The exact spot is not sent.</td></tr>
 </table>
 </div>
-<p>We use this data to improve parking detection, zone accuracy and battery use, and to produce aggregated statistics, such as the number of parking sessions per zone and hour.</p>
+<p>We use this data to improve parking detection, zone accuracy and battery use, to see whether Pauza has the permissions it needs and which app versions are in use, to let you know about a new version, and to produce aggregated statistics, such as the number of parking sessions per zone and hour.</p>
 
 <h2>Legal basis</h2>
 <ul>
-<li>Data rounded to about 1 km and performance reports: our legitimate interest in keeping Pauza accurate and efficient (Art. 6(1)(f) GDPR).</li>
+<li>Data rounded to about 1 km, performance reports, daily statuses and your answers: our legitimate interest in keeping Pauza accurate and efficient (Art. 6(1)(f) GDPR).</li>
 <li>Data rounded to about 100 m: your consent (Art. 6(1)(a) GDPR). "Help improve Pauza" is off by default. You can turn it on or off at any time on the last onboarding step or in Settings, and Pauza works the same either way. Turning it off does not affect data sent before.</li>
 </ul>
 
@@ -72,7 +74,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 56px 0; }
 <ul>
 <li>Locations rounded to about 100 m are coarsened to about 1 km after 12 months.</li>
 <li>The full content of performance reports is deleted after 90 days. Only summary figures are kept.</li>
-<li>Other session data is kept while it is useful for statistics. It cannot be linked to you.</li>
+<li>Other session data, daily statuses and answers are kept while they are useful for statistics. They cannot be linked to you.</li>
 </ul>
 
 <h2>Your rights</h2>
@@ -93,7 +95,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 56px 0; }
 
 <section id="pl" lang="pl">
 <h1>Polityka prywatności Pauza</h1>
-<p class="updated">Ostatnia aktualizacja: 9 listopada 2026</p>
+<p class="updated">Ostatnia aktualizacja: 25 listopada 2026</p>
 
 <p>Pauza to asystent parkowania na iPhone’a. Wykrywa, gdy parkujesz w strefie płatnego parkowania, pokazuje strefę i godziny płatne oraz przypomina o opłacie i zakończeniu parkowania. Pauza nie pobiera opłat i nie ma kont użytkowników.</p>
 
@@ -108,20 +110,22 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 56px 0; }
 </ul>
 
 <h2>Dane wysyłane do Pauza</h2>
-<p>Pauza nie używa żadnego identyfikatora użytkownika, urządzenia ani reklamowego. Każda sesja parkowania jest wysyłana z nowym losowym numerem, który łączy tylko początek i koniec tej jednej sesji. Aplikacja usuwa ten numer po wysłaniu sesji, więc sesji nie da się powiązać ze sobą ani z Tobą.</p>
+<p>Pauza nie używa żadnego identyfikatora użytkownika, urządzenia ani reklamowego. Każda sesja parkowania jest wysyłana z nowym losowym numerem, który łączy tylko początek i koniec tej jednej sesji. Aplikacja usuwa ten numer po wysłaniu sesji, więc sesji nie da się powiązać ze sobą ani z Tobą. Dzienny status używa osobnego losowego numeru, który aplikacja tworzy od nowa każdego dnia i który nie pochodzi z żadnego identyfikatora urządzenia. Nigdy nie jest wysyłany z sesjami parkowania, więc statusów z różnych dni nie da się powiązać ze sobą, z sesjami ani z Tobą.</p>
 <div class="table-wrap">
 <table>
 <tr><th>Dane</th><th>Szczegóły</th></tr>
-<tr><td>Sesja parkowania</td><td>Miasto, strefa, czas rozpoczęcia i zakończenia, szacowany koszt, sposób zakończenia, pewność wykrycia, poziom i stan ładowania baterii, model iPhone’a</td></tr>
+<tr><td>Sesja parkowania</td><td>Miasto, strefa, czas rozpoczęcia i zakończenia, szacowany koszt, sposób zakończenia, pewność wykrycia, poziom i stan ładowania baterii, model iPhone’a, wersja aplikacji i iOS, sposób rozpoznania parkowania (chodzenie, kroki lub postój), czas od zatrzymania do przypomnienia, dokładność i wiek odczytu lokalizacji</td></tr>
 <tr><td>Okolica parkowania</td><td>Zaokrąglona do około 1 km. Jeśli włączysz „Pomóż ulepszać Pauzę”, zaokrąglona do około 100 m. Dokładne miejsce i adres nigdy nie są wysyłane.</td></tr>
 <tr><td>Dzienny raport wydajności</td><td>Raport Apple MetricKit: wersja aplikacji, model iPhone’a, czas procesora i pracy w tle, czas na poszczególnych poziomach dokładności GPS, zużycie danych komórkowych, pamięci i zamknięcia aplikacji. Nie zawiera żadnego identyfikatora.</td></tr>
+<tr><td>Dzienny status</td><td>Wersja aplikacji i iOS, model iPhone’a, miasto oraz to, czy lokalizacja („Zawsze” i dokładna), Ruch i sprawność oraz powiadomienia są dozwolone. Wysyłany najwyżej raz dziennie, ponownie tego samego dnia tylko po zmianie, z opisanym wyżej dziennym losowym numerem.</td></tr>
+<tr><td>Twoje odpowiedzi</td><td>Jeśli odpowiesz na pytanie „Czy wszystko się zgadza?” w historii: odpowiedź, miasto, czy strefa była znana, pewność wykrycia, dokładność lokalizacji, czas trwania, godzina rozpoczęcia, wersja aplikacji i iOS, model iPhone’a. Dokładne miejsce nie jest wysyłane.</td></tr>
 </table>
 </div>
-<p>Używamy tych danych, aby ulepszać wykrywanie parkowania, dokładność stref i zużycie baterii oraz tworzyć zbiorcze statystyki, np. liczbę parkowań w strefie w danej godzinie.</p>
+<p>Używamy tych danych, aby ulepszać wykrywanie parkowania, dokładność stref i zużycie baterii sprawdzać, czy Pauza ma potrzebne uprawnienia i jakie wersje aplikacji są używane, informować o nowej wersji oraz tworzyć zbiorcze statystyki, np. liczbę parkowań w strefie w danej godzinie.</p>
 
 <h2>Podstawa prawna</h2>
 <ul>
-<li>Dane zaokrąglone do około 1 km i raporty wydajności: nasz prawnie uzasadniony interes w utrzymaniu dokładności i wydajności Pauza (art. 6 ust. 1 lit. f RODO).</li>
+<li>Dane zaokrąglone do około 1 km, raporty wydajności, dzienne statusy i Twoje odpowiedzi: nasz prawnie uzasadniony interes w utrzymaniu dokładności i wydajności Pauza (art. 6 ust. 1 lit. f RODO).</li>
 <li>Dane zaokrąglone do około 100 m: Twoja zgoda (art. 6 ust. 1 lit. a RODO). „Pomóż ulepszać Pauzę” jest domyślnie wyłączone. Możesz to włączyć lub wyłączyć w każdej chwili na ostatnim ekranie powitalnym lub w Ustawieniach, a Pauza działa tak samo. Wyłączenie nie wpływa na dane wysłane wcześniej.</li>
 </ul>
 
@@ -137,7 +141,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 56px 0; }
 <ul>
 <li>Lokalizacje zaokrąglone do około 100 m po 12 miesiącach są zaokrąglane do około 1 km.</li>
 <li>Pełna treść raportów wydajności jest usuwana po 90 dniach; zostają tylko wartości podsumowujące.</li>
-<li>Pozostałe dane sesji przechowujemy, dopóki są przydatne do statystyk. Nie da się ich powiązać z Tobą.</li>
+<li>Pozostałe dane sesji, dzienne statusy i odpowiedzi przechowujemy, dopóki są przydatne do statystyk. Nie da się ich powiązać z Tobą.</li>
 </ul>
 
 <h2>Twoje prawa</h2>
